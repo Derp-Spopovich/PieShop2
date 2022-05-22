@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Local Projects\\BethanysPieShop\\BethanysPieShop.csproj": {}
+    "C:\\Local Projects\\.net2\\BethanysPieShop.csproj": {}
   },
   "projects": {
-    "D:\\Local Projects\\BethanysPieShop\\BethanysPieShop.csproj": {
+    "C:\\Local Projects\\.net2\\BethanysPieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Local Projects\\BethanysPieShop\\BethanysPieShop.csproj",
+        "projectUniqueName": "C:\\Local Projects\\.net2\\BethanysPieShop.csproj",
         "projectName": "BethanysPieShop",
-        "projectPath": "D:\\Local Projects\\BethanysPieShop\\BethanysPieShop.csproj",
-        "packagesPath": "C:\\Users\\hlim\\.nuget\\packages\\",
-        "outputPath": "D:\\Local Projects\\BethanysPieShop\\obj\\",
+        "projectPath": "C:\\Local Projects\\.net2\\BethanysPieShop.csproj",
+        "packagesPath": "C:\\Users\\zeryi\\.nuget\\packages\\",
+        "outputPath": "C:\\Local Projects\\.net2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hlim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zeryi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://dev.goof.buzz/goof.nuget/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,15 +40,27 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.16, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.16, )"
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -70,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

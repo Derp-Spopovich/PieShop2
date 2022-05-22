@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\hlim\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\hlim\\.nuget\\packages"
+      "C:\\Users\\zeryi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\zeryi\\.nuget\\packages"
     ]
   }
 }
